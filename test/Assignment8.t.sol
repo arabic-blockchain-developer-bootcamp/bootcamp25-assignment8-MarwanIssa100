@@ -6,10 +6,10 @@ import {Assignment8} from "../src/Assignment8.sol";
 
 contract Assignment8Test is Test {
     Assignment8 assignment;
-    string public temporaryUriForTesting = "https://azure-yearning-shrew-339.mypinata.cloud/ipfs/bafkreifo3hg2hnig5ojay3tonmf6un3qlxqjienffsmpkq5cfpept2fake";
+    string public temporaryUriForTesting = "https://tomato-necessary-nightingale-285.mypinata.cloud/ipfs/bafkreih3yiif2fmvewcfizhfu4pnhv64ajs2bihzdbc6rr2sxmwh5gxnjq";
 
     function setUp() public {
-        assignment = new Assignment8();
+        assignment = new Assignment8("Skullers","SKL");
     }
 
     function testMintNFTByOwner() public {
